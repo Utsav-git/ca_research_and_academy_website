@@ -15,6 +15,10 @@ const theme = createTheme({
       primary: "#223142",
       secondary: "#7A869A",
     },
+    action: {
+      selected: "#E0F7FA", // Light cyan background for selected
+      hover: "#F1F1F1", // Light grey for hover on non-selected
+    },
   },
 });
 
