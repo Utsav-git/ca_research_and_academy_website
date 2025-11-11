@@ -1,4 +1,8 @@
-import type { FeaturedServiceCardType, NavItem } from "../types/types";
+import type {
+  FeaturedServiceCardType,
+  MarketInsightsType,
+  NavItem,
+} from "../types/types";
 
 export const navItems: NavItem[] = [
   { label: "Home", path: "/" },
@@ -32,4 +36,58 @@ export const featuredServicesCards: FeaturedServiceCardType[] = [
     description:
       "Access detailed market reports and insights to make informed trading decisions.",
   },
+];
+
+export const marketInsights: MarketInsightsType[] = [
+  {
+    id: "1",
+    headline: "Nifty surges to 6-month high",
+    summary: "Strong buying in banking and tech drives market optimism.",
+    date: "2025-1-11",
+  },
+  {
+    id: "2",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-2-10",
+  },
+
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-5-10",
+  },
+
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-12-10",
+  },
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-01-10",
+  },
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-04-10",
+  },
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-3-10",
+  },
+  {
+    id: "3",
+    headline: "US Inflation Softens",
+    summary: "Dollar slips as CPI growth moderates, boosting risk assets.",
+    date: "2025-8-10",
+  },
+  // ...add more tips/insights
 ];

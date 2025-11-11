@@ -9,7 +9,6 @@ const QuickIntro = () => {
         alignItems: "center",
         justifyContent: "space-between",
         gap: 3,
-        px: 3,
       }}
     >
       <Box sx={{ maxWidth: 600 }}>

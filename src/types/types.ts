@@ -7,3 +7,10 @@ export interface FeaturedServiceCardType {
   title: string;
   description: string;
 }
+
+export interface MarketInsightsType {
+  id: string;
+  headline: string;
+  summary: string;
+  date: string;
+}
