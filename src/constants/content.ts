@@ -91,3 +91,31 @@ export const marketInsights: MarketInsightsType[] = [
   },
   // ...add more tips/insights
 ];
+
+export const events = [
+  {
+    id: "1",
+    day: "27",
+    month: "November",
+    location: "Kolhapur",
+    title: "Inflation",
+    detailsUrl: "#",
+  },
+  {
+    id: "2",
+    day: "28",
+    month: "November",
+    location: "Pune",
+    title: "Stock Investments for Begineers",
+    detailsUrl: "#",
+  },
+  {
+    id: "3",
+    day: "05",
+    month: "December",
+    location: "Mumbai",
+    title: "What is SIP?",
+    detailsUrl: "#",
+  },
+  // Optionally, more events...
+];

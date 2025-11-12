@@ -1,7 +1,7 @@
 import React from "react";
 import { AppBar, Toolbar, Button, Avatar, Box } from "@mui/material";
 import { Link } from "react-router-dom";
-import { navItems } from "../../constants/constants";
+import { navItems } from "../../constants/content";
 
 const Navbar: React.FC = () => {
   return (

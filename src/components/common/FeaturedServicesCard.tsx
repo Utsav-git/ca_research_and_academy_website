@@ -6,7 +6,7 @@ import {
   Typography,
 } from "@mui/material";
 import { useState } from "react";
-import { featuredServicesCards } from "../../constants/constants";
+import { featuredServicesCards } from "../../constants/content";
 
 const FeaturedServicesCard = () => {
   const [flippedId, setFlippedId] = useState<string | null>(null);

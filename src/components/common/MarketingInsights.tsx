@@ -1,5 +1,5 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
-import { marketInsights } from "../../constants/constants";
+import { marketInsights } from "../../constants/content";
 import { formatDate } from "../../utils/utils";
 import { useEffect, useRef } from "react";
 
